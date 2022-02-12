@@ -1,0 +1,87 @@
+.container-parede {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: gray;
+}
+
+.item-revestimento {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.container-parede_2 {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: gray;
+  display: flex;
+}
+
+.item-revestimento_2 {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.container-parede_3 {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: gray;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.item-revestimento_3 {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.container-parede_4 {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-revestimento_4 {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+.container-parede_5 {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.item-revestimento_5 {
+  margin: 5px;
+  padding: 5px;
+  background-color: orange;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
