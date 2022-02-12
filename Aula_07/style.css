@@ -1,0 +1,18 @@
+div {
+  background: yellow;
+  width: 200px;
+  height: 100px;
+  padding: 30px;
+  border: 15px solid red;
+  margin: 50px;
+}
+
+p {
+  background: green;
+  color: white;
+  width: 135px;
+  height: 80px;
+  padding: 25px;
+  border: 10px solid black;
+  margin: 35px;
+}
