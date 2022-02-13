@@ -1,0 +1,108 @@
+.container-parede {
+  max-width: 1200px;
+  display: grid;
+  color: white;
+  gap: 10px;
+  background-color: grey;
+  grid-template-columns: 150px 250px 350px 450px;
+}
+
+.item-revestimento01,
+.item-revestimento02,
+.item-revestimento03,
+.item-revestimento04 {
+  background-color: orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-parede2 {
+  max-width: 1200px;
+  display: grid;
+  color: white;
+  gap: 10px;
+  background-color: grey;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item-revestimento05,
+.item-revestimento06,
+.item-revestimento07,
+.item-revestimento08 {
+  background-color: orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-parede3 {
+  max-width: 1200px;
+  display: grid;
+  color: white;
+  gap: 10px;
+  background-color: grey;
+  grid-template-columns: 200px 50px 300px auto;
+}
+
+.item-revestimento09,
+.item-revestimento10,
+.item-revestimento11,
+.item-revestimento12 {
+  background-color: orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-parede4 {
+  max-width: 1200px;
+  display: grid;
+  color: white;
+  gap: 10px;
+  background-color: gray;
+  grid-template-rows: 125px 275px;
+}
+
+.item-revestimento13,
+.item-revestimento14,
+.item-revestimento15,
+.item-revestimento16 {
+  background-color: orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-terreno {
+  max-width: 800px;
+  height: 100vh;
+  display: grid;
+  color: white;
+  gap: 10px;
+  background-color: grey;
+  grid-template-areas:
+    "Cozinha Cozinha Cozinha Cozinha   Cozinha Cozinha Cozinha Cozinha   Cozinha Cozinha Cozinha Cozinha"
+    "Quarto Quarto Quarto Quarto   Quarto Quarto Quarto Quarto   Quarto Quarto Banheiro Banheiro"
+    "Quarto Quarto Quarto Quarto   Quarto Quarto Quarto Quarto   Quarto Quarto Banheiro Banheiro";
+}
+
+.comodo-1,
+.comodo-2,
+.comodo-3 {
+  background-color: orange;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.comodo-1 {
+  grid-area: Cozinha;
+}
+
+.comodo-2 {
+  grid-area: Quarto;
+}
+.comodo-3 {
+  grid-area: Banheiro;
+}
